@@ -1,0 +1,87 @@
+{
+    "DeepSymNetv3-CTAOnly": {
+      "modelName": "DeepSymNetv3",
+      "input_shape": "(batchSize,1,2,73,182,133)",
+      "input_channels": 1,
+      "n_filters_vgg": 24
+    },
+
+    "DeepSymNetv3-VasculatureOnly": {
+      "modelName": "DeepSymNetv3",
+      "input_shape": "(batchSize,1,2,73,182,133)",
+      "input_channels": 1,
+      "n_filters_vgg": 24
+    },
+
+    "DeepSymNetv3-MultiChannel": {
+      "modelName": "DeepSymNetv3",
+      "input_shape": "(batchSize,1,4,73,182,133)", 
+      "input_channels": 2,
+      "n_filters_vgg": 24
+      },
+
+      "DeepSymNetv3-Attention-Strategy-1": {
+        "modelName": "DeepSymNetv3",
+        "input_shape": "(batchSize,1,4,73,182,133)", 
+        "input_channels": 2,
+        "n_filters_vgg": 24
+      },
+
+      "DeepSymNetv3-Attention-Strategy-2": {
+        "modelName": "DeepSymNetv3",
+        "input_shape": "(batchSize,1,4,73,182,133)", 
+        "input_channels": 2,
+        "n_filters_vgg": 24
+      },
+
+      "DeepSymNetv3-Attention-Strategy-3": {
+        "modelName": "DeepSymNetv3",
+        "input_shape": "(batchSize,1,4,73,182,133)", 
+        "input_channels": 2,
+        "n_filters_vgg": 24
+      },
+
+      "DeepSymNetv3-Attention-Strategy-4": {
+        "modelName": "DeepSymNetv3",
+        "input_shape": "(batchSize,1,4,73,182,133)", 
+        "input_channels": 2,
+        "n_filters_vgg": 24
+      },
+
+      "DeepSymNetv3-Attention-Strategy-5": {
+        "modelName": "DeepSymNetv3",
+        "input_shape": "(batchSize,1,4,73,182,133)", 
+        "input_channels": 2,
+        "n_filters_vgg": 24
+      },
+
+      "ResNet-CTAOnly": {
+        "modelName": "ResNet",
+        "input_shape": "(batchSize,1,1,146,182,133)",
+        "input_channels": 1
+      },
+  
+      "ResNet-VasculatureOnly": {
+        "modelName": "ResNet",
+        "input_shape": "(batchSize,1,1,146,182,133)",
+        "input_channels": 1
+      },
+  
+      "ResNet-MultiChannel": {
+        "modelName": "ResNet",
+        "input_shape": "(batchSize,1,2,146,182,133)",
+        "input_channels": 2
+      },
+  
+      "ResNet-Attention-Strategy-1": {
+        "modelName": "ResNet",
+        "input_shape": "(batchSize,1,2,146,182,133)",
+        "input_channels": 2
+        },
+  
+        "ResNet-Attention-Strategy-2": {
+          "modelName": "ResNet",
+          "input_shape": "(batchSize,1,2,146,182,133)",
+          "input_channels": 2
+          }
+}
