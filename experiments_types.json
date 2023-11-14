@@ -23,14 +23,14 @@
       "DeepSymNetv3-Attention-Strategy-1": {
         "modelName": "DeepSymNetv3",
         "input_shape": "(batchSize,1,4,73,182,133)", 
-        "input_channels": 2,
+        "input_channels": 1,
         "n_filters_vgg": 24
       },
 
       "DeepSymNetv3-Attention-Strategy-2": {
         "modelName": "DeepSymNetv3",
         "input_shape": "(batchSize,1,4,73,182,133)", 
-        "input_channels": 2,
+        "input_channels": 1,
         "n_filters_vgg": 24
       },
 
@@ -51,7 +51,7 @@
       "DeepSymNetv3-Attention-Strategy-5": {
         "modelName": "DeepSymNetv3",
         "input_shape": "(batchSize,1,4,73,182,133)", 
-        "input_channels": 2,
+        "input_channels": 1,
         "n_filters_vgg": 24
       },
 
@@ -76,12 +76,12 @@
       "ResNet-Attention-Strategy-1": {
         "modelName": "ResNet",
         "input_shape": "(batchSize,1,2,146,182,133)",
-        "input_channels": 2
+        "input_channels": 1
         },
   
         "ResNet-Attention-Strategy-2": {
           "modelName": "ResNet",
           "input_shape": "(batchSize,1,2,146,182,133)",
-          "input_channels": 2
+          "input_channels": 1
           }
 }
